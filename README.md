@@ -1,24 +1,34 @@
-StoneHearth Locale Korean : 스톤하스 한글 모드
+StoneHEarth Locale Korean : 스톤하스 한글 모드
 ========
 
 ### 1. 업데이트
-스톤하스 바닐라 + ACE 모드 호환 적용.
+스톤하스 정식판 + ACE 모드 호환 적용.
+현재 테스트만 완료된 상황입니다.
 
 ### 2. 모드에 대해서
-이 모드는 스톤하스 바닐라와 ACE 모드의 한글 번역 모드입니다.
+이 모드는 스톤하스 바닐라와 ACE 모드의 합본 한글화 모드입니다.
 
-### 3. 모드가 작동하기 위해 설정해야 할 부분
 
- * startermod_locale / manifest.json 언어 모딩 라인 추가.
- * added_languages.json - 새로운 언어 추가.
- * startermod_locale / manifest.json - 번역될 json 파일과 font 파일을 오버라이드.
+### 3. 번역을 위해 수정해야 할 파일
+모든 번역은 translations 폴더 내 파일에서 이루어집니다.
 
-**※이후 인터페이스 오작동에 대한 소스 수정이 가해지면 *.html , *.less 파일을 오버라이드에 추가합니다.**
+ * stonehearth.json - 스톤하스 코어
+ * rayyas_children.json - 레이아스의 자손들 관련
+ * northern_alliance.json - 북방연합 관련
+ * ace.json - ACE 모드 코어
+ * ace_mixin.json - ACE 모드 서브
 
-### 4. en.json 파일은 어떻게 번역해야 하나요?
-json 파일의 콜론 ' : ' 오른쪽에 오는 문장만 변경하면 됩니다.  <br>
-콜론 ' : ' 왼쪽의 단어와  대괄호 '[ ] ' 에 둘러쌓인 변수명은 변경하지 마세요.<br>
-http://codebeautify.org/jsonviewer  웹사이트를 사용하여 해당 데이터 구조를 더욱 쉽게 볼 수 있습니다.
+**이후 인터페이스 오작동에 대한 소스 수정이 가해지면 *.html , *.less 파일을 오버라이드에 추가합니다.**
+
+### 4. 파일은 어떻게 번역해야 하나요?
+전용 웹 번역기 :
+https://brunosupremo.github.io/Stonehearth-Translator/
+
+사용법 : 
+1. Load first.json에 origin 폴더의 원본 파일을 선택합니다.
+2. Load second.json에 translations 폴더의 번역 파일을 선택합니다.
+3. 미번역 된 데이터를 번역합니다. Next untranslated를 사용하면 다음 미번역을 쉽게 볼 수 있습니다.
+4. 작업이 끝나면 Save translation.json으로 저장합니다.
 
 ### 5. 참조
 이 가이드는 [네이버 스톤하스 포럼 카페](http://cafe.naver.com/stonehearth)에서 작성되었습니다.<br>
