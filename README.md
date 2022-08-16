@@ -1,4 +1,4 @@
-StoneHEarth Locale Korean : 스톤하스 한글 모드
+StoneHearth Locale Korean : 스톤하스 한글 모드
 ========
 
 ### 1. 업데이트
