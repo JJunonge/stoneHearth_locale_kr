@@ -25,8 +25,8 @@ StoneHearth Locale Korean : 스톤하스 한글 모드
 https://brunosupremo.github.io/Stonehearth-Translator/
 
 사용법 : 
-1. Load first.json에 origin 폴더의 원본 파일을 선택합니다.
-2. Load second.json에 translations 폴더의 번역 파일을 선택합니다.
+1. Load first.json에 translations 폴더의 작업 중인 파일을 선택합니다.
+2. 미리 번역 작업 한 파일이 있다면 Load second.json를 통해 반영합니다.
 3. 미번역 된 데이터를 번역합니다. Next untranslated를 사용하면 다음 미번역을 쉽게 볼 수 있습니다.
 4. 작업이 끝나면 Save translation.json으로 저장합니다.
 
