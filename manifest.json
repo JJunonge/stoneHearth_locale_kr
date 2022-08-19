@@ -1,10 +1,10 @@
 {
 	"info" : {
-		"name" : "StoneHearth Locale Kr",
+		"name" : "[KOR] 한글화 모드",
 		"namespace" : "stonehearth_locale_kr",
-		"version" : 10,
-		"client_only" : true,
-		"default_enabled": false
+		"version" : 3,
+		"steam_file_id" : "2850235997",
+		"client_only" : true
 	},
 	
 	"mixintos" : {
@@ -26,5 +26,9 @@
 		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/BMJUA.woff)",
 		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot" : "file(fonts/BMJUA.eot)",
 		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg" : "file(fonts/BMJUA.svg)"
-	}
+	},
+	
+	"aliases" : {},
+	"components" : {},
+	"controllers" : {}
 }
