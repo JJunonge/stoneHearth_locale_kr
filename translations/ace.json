@@ -23,8 +23,8 @@
 				"carving": "[name(data.target)] 조각 중",
 				"emptying": "[name(data.target)] 비우는 중",
 				"periodic_interaction": {
-					"default": "interacting with [name(data.target)]",
-					"discovery": "making a discovery",
+					"default": "[name(data.target)]과(와) 상호작용 중",
+					"discovery": "무언가를 발견함",
 					"find_native_seed": {
 						"preparing": "preparing to explore wild seeds",
 						"herb": "fiddling with native herbs",
