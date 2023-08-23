@@ -3695,24 +3695,24 @@
 											"dialog_nodes": {
 												"army_replies": {
 													"bulletin_message": {
-														"000": "Take all the things!!!!"
+														"000": "모든것을 가져가라!!"
 													},
-													"bulletin_title": "The goblins raise their weapons",
+													"bulletin_title": "고블린들이 무기를 들어올린다",
 													"dialog_title": "오고의 기수"
 												},
 												"ogo_attacks": {
 													"bulletin_message": {
-														"000": "At last, we come to place of great shinies! Go forth, my minions! Go forth for Ogo Skullbonker's glory!"
+														"000": "마침내, 우리는 위대한 빛나는 자들의 자리에 서게 되었다!! 나아가라, 내 부하들이여!! 오고 스컬본커의 영광을 위해 나아가라!"
 													},
-													"bulletin_title": "You Hear Goblin War Horns",
+													"bulletin_title": "고블린의 전쟁 뿔피리 소리가 들립니다.",
 													"dialog_title": "오고 스컬본커"
 												},
 												"mountain_replies": {
 													"bulletin_message": {
-														"000": "For Ogo! For Shinies!"
+														"000": "오고를 위하여! 샤이니를 위하여!!"
 													},
-													"bulletin_title": "Mountain roars his approval",
-													"dialog_title": "오거 마운틴"
+													"bulletin_title": "마운틴이 그의 외침에 포효한다",
+													"dialog_title": "오우거 마운틴"
 												}
 											}
 										}
@@ -3755,13 +3755,13 @@
 							"raid_stockpiles": {
 								"sighted_bulletin": {
 									"title": "무장한 고블린이다!",
-									"message": "He wants your stuff"
+									"message": "그는 네 물건을 원한다"
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"thug": {
-								"description": "Armed and dangerous!"
+								"description": "무장도 했고 위험해요!!"
 							}
 						}
 					},
@@ -3769,14 +3769,14 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A stray goblin wolf!",
-									"message": "He wants to eat you."
+									"title": "길 잃은 고블린 늑대!!",
+									"message": "그들은 우리를 잡아 먹으려고 해."
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"goblin_wolf": {
-								"description": "Terrifyingly ferocious"
+								"description": "끔찍할 정도로 흉폭하다"
 							}
 						}
 					},
@@ -3785,16 +3785,16 @@
 							"raid_stockpiles": {
 								"sighted_bulletin": {
 									"title": "고블린이다!",
-									"message": "He wants your stuff"
+									"message": "그들은 네 물건을 원한다"
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"thiefs": {
-								"description": "Cowardly but covetous"
+								"description": "비겁하지만 탐욕스럽다"
 							},
 							"escorts": {
-								"description": "Covetous and armed!"
+								"description": "탐욕스러우며 무장했습니다!!"
 							}
 						}
 					},
@@ -3802,8 +3802,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A dangerous goblin!",
-									"message": "He wants your stuff"
+									"title": "위험한 고블린!",
+									"message": "그들은 네 물건을 원한다"
 								}
 							}
 						}
@@ -3812,8 +3812,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A goblin sneaks into camp!",
-									"message": "He's into stealth"
+									"title": "고블린이 몰래 우리 캠프에 들어왔습니다!",
+									"message": "그가 몰래 안으로 들어옵니다"
 								}
 							}
 						},
@@ -3827,8 +3827,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A thief approaches!",
-									"message": "He wants your stuff!!!."
+									"title": "도둑이 접근한다!",
+									"message": "그들은 네 물건을 원한다!!!."
 								}
 							}
 						},
@@ -3837,7 +3837,7 @@
 								"description": "Into black pajamas."
 							},
 							"goblin_wolf": {
-								"description": "Terrifyingly ferocious"
+								"description": "끔찍할 정도로 흉폭하다"
 							}
 						}
 					},
