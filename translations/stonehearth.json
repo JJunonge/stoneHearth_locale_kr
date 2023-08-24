@@ -3063,7 +3063,7 @@
 										"001": "보잘 것 없는 마을이군! 엎드려 공포에 떨어라!",
 										"002": "무하하하하하하! 이게? 이게 당신 마을이야? 눈물 나도록 웃기군!"
 									},
-									"bulletin_title": "A goblin with a officious smirk slithers into town",
+									"bulletin_title": "고블린이 능글맞게 웃으며 마을로 들어옵니다.",
 									"dialog_title": "오고의 기수"
 								},
 								"ogo_introduction": {
@@ -3131,7 +3131,7 @@
 									"bulletin_message": {
 										"000": "하하하! 정확해. 우리의 우정을 기억하기 위한거야."
 									},
-									"bulletin_title": "The goblin places something on the ground with great care",
+									"bulletin_title": "고블린은 조심스럽게 땅바닥에 무언가를 내려 놓습니다.",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"information": {
@@ -3434,10 +3434,10 @@
 												"description": "오고 스컬본커의 소유물"
 											},
 											"trainer": {
-												"description": "Whips the wolves into a dangerous frenzy"
+												"description": "늑대들을 위험한 광란의 상태로 만든다"
 											},
 											"tame_wolf": {
-												"description": "Terrifyingly ferocious"
+												"description": "끔찍할 정도로 흉폭하다"
 											}
 										}
 									}
@@ -3450,10 +3450,10 @@
 									"ogo_tent": {
 										"ogo_tent": {
 											"display_name": "오고의 텐트",
-											"description": "Made from bleached pelts."
+											"description": "표백 작업한 가죽으로 만들었다."
 										},
 										"ogo": {
-											"description": "Soothsayer say, Ogo Chosen One, Ogo Cycle-Breaker",
+											"description": "점쟁이가 말했다, 오고는 선택받은 자이며, 오고는 순환의 파괴자 라고.",
 											"display_name": "오고 스컬본커"
 										}
 									},
@@ -7481,7 +7481,7 @@
 					"#927923": "Lemon Ginger"
 				},
 				"patterns": {
-					"peaked_roof_oak_leaf": "A wooden roof made up of shades of Oak Leaf",
+					"peaked_roof_oak_leaf": "참나무 잎으로 만든 나무 지붕",
 					"peaked_roof_robin": "A wooden roof made up of shades of Robin",
 					"peaked_roof_peach": "A wooden roof made up of shades of Peach",
 					"peaked_roof_peach_fancy": "A wooden roof made up of punga, and shades of Peach",
@@ -7550,8 +7550,8 @@
 				"description": "하슬링에 대한 자세한 정보를 볼 수 있습니다."
 			},
 			"open_loot": {
-				"display_name": "Loot",
-				"description": "Open this loot container to claim its contents."
+				"display_name": "전리품",
+				"description": "이 전리품 상자를 열어 내용물을 획득하세요."
 			},
 			"place_item": {
 				"display_name": "아이템 설치",
@@ -7574,8 +7574,8 @@
 				"description": "하슬링에게 새로운 직업을 줍니다."
 			},
 			"change_working_for": {
-				"display_name": "Change Working For",
-				"description": "Change which town this citizen is working for."
+				"display_name": "작업 대상 변경",
+				"description": "이 하울링이 일하는 마을을 변경하세요."
 			},
 			"raze_crop": {
 				"display_name": "땅 정리하기",
@@ -7609,10 +7609,10 @@
 				"disabled_description": "이 동물을 영양분이 없어 고기가 없습니다. 살과 뼈 뿐입니다."
 			},
 			"spawn_glory_wave": {
-				"display_name": "Summon Enemy Wave",
-				"description": "Summon the next wave of enemies to claim more glory.",
-				"disabled_description": "No more enemies are knocking down your door just yet.",
-				"glory_level_achieved_bulletin": "Glory level [str(i18n_data.glory_level)] achieved!"
+				"display_name": "적 웨이브 소환",
+				"description": "더욱 많은 영광을 차지하기 위해 적들을 소환하세요.",
+				"disabled_description": "이젠 적들이 당신의 문을 두드리지 않습니다.",
+				"glory_level_achieved_bulletin": "영광 레벨 [str(i18n_data.glory_level)] 달성!"
 			},
 			"undeploy_item": {
 				"display_name": "배치 취소",
@@ -7620,9 +7620,9 @@
 				"disabled_description": "이 아이템은 사용중입니다. 다시 시도하세요."
 			},
 			"undeploy_golem": {
-				"display_name": "Undeploy Golem",
-				"description": "Deactivate this golem and return it to a stockpile.",
-				"disabled_description": "Cannot deactivate at this time."
+				"display_name": "골렘 활성화 취소",
+				"description": "이 골렘을 비활성화하고 비축물로 돌려보냅니다.",
+				"disabled_description": "지금은 비활성화할 수 없습니다."
 			},
 			"unit_control": {
 				"abilities": {
@@ -7706,8 +7706,8 @@
 				"description": "이 물건을 새 주인에게 맡깁니다."
 			},
 			"destroy_item": {
-				"display_name": "Cancel Placement",
-				"description": "Remove this placement task"
+				"display_name": "배치 취소",
+				"description": "배치 작업을 제거합니다."
 			},
 			"toggle_lock": {
 				"display_name": "잠금",
@@ -7718,14 +7718,14 @@
 				"description": "마을 사람들에게 이 하슬링을 구해달라고 말해주세요."
 			},
 			"abandon_glory_wave": {
-				"display_name": "Give Up!",
-				"description": "De-spawn the current enemy wave, without gaining any glory.",
-				"disabled_description": "No challenge enemies around right now."
+				"display_name": "포기!",
+				"description": "어떤 영광도 얻지 못한 채로 진행중인 적 웨이브를 디스폰합니다.",
+				"disabled_description": "지금은 주변에 도전할 적들이 없습니다."
 			},
 			"summon_titan": {
-				"display_name": "Awaken Titan",
-				"description": "Rouse the Titan from its slumber",
-				"disabled_description": "The Titan slumbers no longer"
+				"display_name": "깨어난 타이탄",
+				"description": "타이탄을 잠에서 깨우다",
+				"disabled_description": "타이탄은 더 이상 잠들지 않습니다."
 			},
 			"fire_titan_slayer": {
 				"display_name": "Fire!!",
@@ -8680,7 +8680,7 @@
 					"display_name": "대장간"
 				},
 				"weaver_house": {
-					"display_name": "Weaver House"
+					"display_name": "직조공 작업장"
 				}
 			}
 		},
@@ -8768,7 +8768,7 @@
 				"berries": "열매",
 				"carrots": "당근",
 				"jerky": "육포",
-				"sweet_potatoes": "Potatoes"
+				"sweet_potatoes": "감자"
 			},
 			"coming_soon": "Coming Soon"
 		},
@@ -9837,12 +9837,12 @@
 			"all_trappable_animals": {
 				"trappable_animals": {
 					"bugs": {
-						"name": "Bug",
-						"description": "Bugs produce bug meat, used by the cook, and chitin, used in some armor recipes"
+						"name": "곤충",
+						"description": "곤충들은 요리사에 의해 사용되는 곤충고기와 일부 갑옷 제작에 사용되는 키틴을 생산합니다."
 					},
 					"critters": {
-						"name": "Small Animal",
-						"description": "Small animals produce jerky and pelts"
+						"name": "작은 동물",
+						"description": "작은 동물들은 육포와 가죽을 생산합니다"
 					}
 				}
 			}
@@ -10042,12 +10042,12 @@
 					"description": "돌을 수확할 수 있습니다."
 				},
 				"large_arctic_boulder_1": {
-					"display_name": "Huge Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "거대한 바위",
+					"description": "돌을 수확할 수 있습니다."
 				},
 				"large_arctic_boulder_2": {
-					"display_name": "Huge Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "거대한 바위",
+					"description": "돌을 수확할 수 있습니다."
 				}
 			},
 			"medium_boulder": {
@@ -10064,16 +10064,16 @@
 					"description": "돌을 수확할 수 있습니다."
 				},
 				"medium_arctic_boulder_1": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "중형 바위",
+					"description": "돌을 수확할 수 있습니다."
 				},
 				"medium_arctic_boulder_2": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "중형 바위",
+					"description": "돌을 수확할 수 있습니다."
 				},
 				"medium_arctic_boulder_3": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "중형 바위",
+					"description": "돌을 수확할 수 있습니다."
 				}
 			},
 			"small_boulder": {
@@ -10081,8 +10081,8 @@
 				"description": "돌을 수확할 수 있습니다."
 			},
 			"small_arctic_boulder": {
-				"display_name": "Small Boulder",
-				"description": "Harvestable for stone"
+				"display_name": "소형 바위",
+				"description": "돌을 수확할 수 있습니다."
 			}
 		},
 		"construction": {
